@@ -35,7 +35,13 @@
                 color: rgb(115, 22, 236);
                 
             }
+            table{
+                width: 100%;
+                height: 100%;
+                border-spacing: 30px;
+            }
             th,td,table{
+                
                 border: 3px solid rgba(255, 0, 0, 1.0);
                 font-size: 40%;
                 border-spacing: 50px;
@@ -43,6 +49,10 @@
                 border-collapse: collapse;
             }
             td{
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
                 color: aqua;
             }
             th{
@@ -55,16 +65,15 @@
         <h1>this is a practice test for table borders </h1>
         <table>
             <tr>
+                <caption>this is a practice</caption>
                 <th><b>head</b> </th>
-                <th>the head</th>
-                <th>the head</th>
+                <th colspan="2" rowspan="2">the head</th>
                 <th>the head</th>
                 <th>the head</th>
             </tr>
             <tr>
                 <td><b>data</b>data</td>
-                <td>data</td>
-                <td>data</td>
+                
                 <td>data</td>
                 <td>data</td>
             </tr>
